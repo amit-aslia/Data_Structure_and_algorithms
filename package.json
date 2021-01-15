@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amit-aslia/Data_Structure_and_algorithms/issues"
   },
-  "homepage": "https://github.com/amit-aslia/Data_Structure_and_algorithms#readme"
+  "homepage": "https://github.com/amit-aslia/Data_Structure_and_algorithms#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

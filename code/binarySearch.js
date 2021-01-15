@@ -1,6 +1,7 @@
 const prompt = require('prompt-sync')();
 
 const findValue = (arr, i, j, x) => {
+    console.log('FUnction called');
     if(i == j) {
         if(arr[i] == x) {
             return i;
