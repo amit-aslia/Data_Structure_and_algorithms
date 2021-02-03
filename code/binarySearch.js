@@ -12,7 +12,7 @@ const findValue = (arr, i, j, x) => {
     if(arr[mid] == x) {
         return mid;
     }
-    if(arr[mid] >= x) {
+    if(arr[mid] > x) {
         return findValue(arr,i,mid-1, x);
     }
     else {
