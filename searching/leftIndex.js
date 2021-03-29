@@ -13,7 +13,7 @@ const leftIndex = (arr, i , j, x) => {
 }
 
 
-const arr = [];
+const arr = [1,1,1,2,2,3,4,5,5];
 
-const out = leftIndex(arr, 0 , arr.length - 1, 23);
+const out = leftIndex(arr, 0 , arr.length - 1, 2);
 console.log(out);
