@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.select-filter {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.filter-label {
+  padding: 16px;
+  border: 1px solid;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.select-box {
+  display: none;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  max-height: 150px;
+}
+
+.option-checkbox {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 8px;
+}

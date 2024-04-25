@@ -1,0 +1,27 @@
+.container {
+  max-width: 500px;
+  margin: 16px auto;
+  border: 1px solid;
+  height: 400px;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.matrix {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 100%;
+  justify-content: space-around;
+  margin: 16px 0;
+}
+
+.eachNumber {
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  margin: 16px 0;
+  height: 40px;
+}

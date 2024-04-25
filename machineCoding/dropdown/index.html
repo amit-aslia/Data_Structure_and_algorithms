@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Filters with Checkboxes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="select-filter"
+        onmouseenter="showOptions('jeans')"
+        onmouseleave="hideOptions('jeans')"
+      >
+        <div class="filter-label">Select jeans</div>
+        <div class="select-box" id="jeansOptions">
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option1" /> Jeans Option
+            1</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option2" /> Jeans Option
+            2</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option3" /> <span>Jeans Option
+            3</span></label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option4" /> Jeans Option
+            4</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option1" /> Jeans Option
+            1</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option2" /> Jeans Option
+            2</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option3" /> Jeans Option
+            3</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option4" /> Jeans Option
+            4</label
+          >
+        </div>
+      </div>
+      <div
+        class="select-filter"
+        onmouseenter="showOptions('shirt')"
+        onmouseleave="hideOptions('shirt')"
+      >
+        <div class="filter-label">Select Shirt</div>
+        <div class="select-box" id="shirtOptions">
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option1" /> Jeans Option
+            1</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option2" /> Jeans Option
+            2</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option3" /> Jeans Option
+            3</label
+          >
+          <label class="option-checkbox"
+            ><input type="checkbox" value="jeans_option4" /> Jeans Option
+            4</label
+          >
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function showOptions(id) {
+        document.getElementById(id + "Options").style.display = "block";
+      }
+
+      function hideOptions(id) {
+        document.getElementById(id + "Options").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

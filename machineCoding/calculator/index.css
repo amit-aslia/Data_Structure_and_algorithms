@@ -1,0 +1,52 @@
+body {
+  max-width: 500px;
+}
+
+.container {
+  background-color: #eee;
+  border: 1px solid;
+  border-radius: 2px;
+  width: 300px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.calcy {
+  text-align: center;
+}
+.inputContainer {
+  margin: 8px;
+}
+
+textarea {
+  width: -webkit-fill-available;
+  background: white;
+  border: 1px solid red;
+}
+
+.buttonsSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px 8px;
+  gap: 8px;
+  justify-content: space-evenly;
+}
+
+.eachButton {
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+  border: 0.5px solid;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equalsTo {
+  width: 120px;
+  height: 60px;
+  background-color: red;
+  border-radius: 8px;
+}

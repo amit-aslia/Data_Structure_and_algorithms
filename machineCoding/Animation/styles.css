@@ -1,0 +1,16 @@
+.box1, .box2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  border-radius: 8px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 2s, height 2s;
+}
+
+.box1:hover {
+  width: 200px;
+  height: 200px;
+}
